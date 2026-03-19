@@ -60,3 +60,6 @@ with col3:
 
 st.subheader("Aperçu des données")
 st.write(trips_merged.head())
+
+st.title("Car sharing Dashboard")
+st.write("Bienvenu dans le Dashboard")
