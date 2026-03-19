@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
 
+st.title("Car sharing Dashboard")
+st.write("Bienvenu dans le Dashboard")
+
 # ── 1. CHARGEMENT DES DONNÉES ──────────────────────────────────────────────────
 
 @st.cache_data
@@ -61,5 +64,3 @@ with col3:
 st.subheader("Aperçu des données")
 st.write(trips_merged.head())
 
-st.title("Car sharing Dashboard")
-st.write("Bienvenu dans le Dashboard")
